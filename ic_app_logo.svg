@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">SMS2GS app logo</title>
+  <circle cx="50" cy="50" r="45" fill="#6200EE"/>
+  <path d="M35 35h40c2.2 0 4 1.8 4 4v30c0 2.2-1.8 4-4 4H35c-2.2 0-4-1.8-4-4V39c0-2.2 1.8-4 4-4Z" fill="#fff"/>
+  <path d="M31 45h48M31 55h48M31 65h48M47 35v38M63 35v38" fill="none" stroke="#0F9D58" stroke-width="1.5"/>
+  <path d="M20 25h30c2.2 0 4 1.8 4 4v15c0 2.2-1.8 4-4 4H28l-8 8V29c0-2.2 1.8-4 4-4Z" fill="#03DAC5"/>
+  <path d="m48 38 6 5-6 5" fill="none" stroke="#6200EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
