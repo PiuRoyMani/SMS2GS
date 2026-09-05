@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background -->
+    <path
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"
+        android:fillColor="#6200EE"/>
+
+    <!-- Spreadsheet Background -->
+    <path
+        android:pathData="M35,35h40c2,0 4,2 4,4v30c0,2 -2,4 -4,4h-40c-2,0 -4,-2 -4,-4v-30c0,-2 2,-4 4,-4z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Spreadsheet Lines -->
+    <path
+        android:pathData="M31,45h48M31,55h48M31,65h48M47,35v38M63,35v38"
+        android:strokeWidth="1.5"
+        android:strokeColor="#0F9D58"/>
+
+    <!-- Message Bubble -->
+    <path
+        android:pathData="M20,25h30c2,0 4,2 4,4v15c0,2 -2,4 -4,4h-22l-8,8v-27c0,-2 2,-4 4,-4z"
+        android:fillColor="#03DAC5"/>
+
+    <!-- Arrow / Flow indicator (The "2") -->
+    <path
+        android:pathData="M48,38 L54,43 L48,48"
+        android:strokeWidth="2.5"
+        android:strokeColor="#6200EE"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"/>
+
+</vector>
