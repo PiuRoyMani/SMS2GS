@@ -19,7 +19,7 @@ const points = [
 document.querySelector('#app').innerHTML = `
   <header class="site-header">
     <a class="brand" href="#top" aria-label="SMS2GS home">
-      <img class="brand-logo" src="src/ic_app_logo.svg" alt="" aria-hidden="true" />
+      <img class="brand-logo" src="ic_app_logo.svg" alt="" aria-hidden="true" />
       <span>SMS2GS</span>
     </a>
     <nav aria-label="Primary navigation">
