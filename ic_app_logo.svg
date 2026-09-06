@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="logo-title">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1024 1024" role="img" aria-labelledby="logo-title">
   <title id="logo-title">SMS2GS app logo</title>
-  <circle cx="50" cy="50" r="45" fill="#6200EE"/>
-  <path d="M35 35h40c2.2 0 4 1.8 4 4v30c0 2.2-1.8 4-4 4H35c-2.2 0-4-1.8-4-4V39c0-2.2 1.8-4 4-4Z" fill="#fff"/>
-  <path d="M31 45h48M31 55h48M31 65h48M47 35v38M63 35v38" fill="none" stroke="#0F9D58" stroke-width="1.5"/>
-  <path d="M20 25h30c2.2 0 4 1.8 4 4v15c0 2.2-1.8 4-4 4H28l-8 8V29c0-2.2 1.8-4 4-4Z" fill="#03DAC5"/>
-  <path d="m48 38 6 5-6 5" fill="none" stroke="#6200EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="512" cy="512" r="470" fill="#F2EFE7"/>
+  <circle cx="512" cy="512" r="470" fill="none" stroke="#D5D4CB" stroke-width="12"/>
+  <path d="M260 260h504c22 0 40 18 40 40v504c0 22-18 40-40 40H260c-22 0-40-18-40-40V300c0-22 18-40 40-40Z" fill="#FFFDF7"/>
+  <path d="M260 260h504c22 0 40 18 40 40v504c0 22-18 40-40 40H260c-22 0-40-18-40-40V300c0-22 18-40 40-40Z" fill="none" stroke="#D5D4CB" stroke-width="8"/>
+  <path d="M280 220h280c16 0 30 14 30 30v120c0 16-14 30-30 30H360l-50 50v-50h-30c-16 0-30-14-30-30V250c0-16 14-30 30-30Z" fill="#3F805D"/>
+  <path d="M330 280h180M330 320h120" fill="none" stroke="#FFFDF7" stroke-width="16" stroke-linecap="round"/>
+  <path d="M460 390l70 50-70 50M460 440h70" fill="none" stroke="#EE684A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M330 480h400M330 580h400M330 680h400" fill="none" stroke="#3F805D" stroke-width="16" stroke-linecap="round"/>
+  <path d="M470 440v280M610 440v280" fill="none" stroke="#3F805D" stroke-width="16" stroke-linecap="round"/>
 </svg>

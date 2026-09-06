@@ -1,37 +1,64 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="200dp"
     android:height="200dp"
-    android:viewportWidth="100"
-    android:viewportHeight="100">
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
 
-    <!-- Background -->
+    <!-- Background Circle (#F2EFE7) -->
     <path
-        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"
-        android:fillColor="#6200EE"/>
+        android:pathData="M512,512m-470,0a470,470 0,1 1,940 0a470,470 0,1 1,-940 0"
+        android:fillColor="#F2EFE7"/>
 
-    <!-- Spreadsheet Background -->
+    <!-- Subtle Outer Border Outline (#D5D4CB) -->
     <path
-        android:pathData="M35,35h40c2,0 4,2 4,4v30c0,2 -2,4 -4,4h-40c-2,0 -4,-2 -4,-4v-30c0,-2 2,-4 4,-4z"
-        android:fillColor="#FFFFFF"/>
+        android:pathData="M512,512m-470,0a470,470 0,1 1,940 0a470,470 0,1 1,-940 0"
+        android:strokeWidth="12"
+        android:strokeColor="#D5D4CB"
+        android:fillColor="#00000000"/>
 
-    <!-- Spreadsheet Lines -->
+    <!-- Main White Card Container (#FFFDF7) -->
     <path
-        android:pathData="M31,45h48M31,55h48M31,65h48M47,35v38M63,35v38"
-        android:strokeWidth="1.5"
-        android:strokeColor="#0F9D58"/>
+        android:pathData="M260,260 h504 c22,0 40,18 40,40 v504 c0,22 -18,40 -40,40 h-504 c-22,0 -40,-18 -40,-40 v-504 c0,-22 18,-40 40,-40 z"
+        android:fillColor="#FFFDF7"/>
 
-    <!-- Message Bubble -->
     <path
-        android:pathData="M20,25h30c2,0 4,2 4,4v15c0,2 -2,4 -4,4h-22l-8,8v-27c0,-2 2,-4 4,-4z"
-        android:fillColor="#03DAC5"/>
+        android:pathData="M260,260 h504 c22,0 40,18 40,40 v504 c0,22 -18,40 -40,40 h-504 c-22,0 -40,-18 -40,-40 v-504 c0,-22 18,-40 40,-40 z"
+        android:strokeWidth="8"
+        android:strokeColor="#D5D4CB"
+        android:fillColor="#00000000"/>
 
-    <!-- Arrow / Flow indicator (The "2") -->
+    <!-- Top Chat Bubble Accent (Sage Green #3F805D) -->
     <path
-        android:pathData="M48,38 L54,43 L48,48"
-        android:strokeWidth="2.5"
-        android:strokeColor="#6200EE"
+        android:pathData="M280,220 h280 c16,0 30,14 30,30 v120 c0,16 -14,30 -30,30 h-200 l-50,50 v-50 h-30 c-16,0 -30,-14 -30,-30 v-120 c0,-16 14,-30 30,-30 z"
+        android:fillColor="#3F805D"/>
+
+    <!-- Message Lines inside Chat Bubble (White) -->
+    <path
+        android:pathData="M330,280 h180 M330,320 h120"
+        android:strokeWidth="16"
+        android:strokeColor="#FFFDF7"
+        android:strokeLineCap="round"/>
+
+    <!-- Coral Red Directional Arrow (#EE684A) -->
+    <path
+        android:pathData="M460,390 L530,440 L460,490 M460,440 h70"
+        android:strokeWidth="20"
+        android:strokeColor="#EE684A"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
         android:fillColor="#00000000"/>
+
+    <!-- Spreadsheet Grid Lines (Forest Sage #3F805D) -->
+    <path
+        android:pathData="M330,480 h400 M330,580 h400 M330,680 h400"
+        android:strokeWidth="16"
+        android:strokeColor="#3F805D"
+        android:strokeLineCap="round"/>
+
+    <path
+        android:pathData="M470,440 v280 M610,440 v280"
+        android:strokeWidth="16"
+        android:strokeColor="#3F805D"
+        android:strokeLineCap="round"/>
 
 </vector>
